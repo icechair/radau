@@ -18,6 +18,7 @@ func init() {
 	flag.StringVar(&listen, "listen", ":8080", "listen on <hostname:port>")
 	flag.Parse()
 }
+
 func main() {
 	if token == "" {
 		flag.Usage()
